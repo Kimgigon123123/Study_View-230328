@@ -1,0 +1,37 @@
+/*스타일시트 주석문기호  */
+
+
+
+/*2. 태그 선택자 : 1개가 아닌 모두~ */
+p {
+    background-color:olivedrab;
+    color:blueviolet;
+}
+/* p로 시작하는 태그들 전부 다 바꿔줌 */
+
+/* 3. 클래스 선택자 : 여러번 반복, 재사용 */
+.myClass{
+    padding: 50px 30px; /* 여백 */
+    border: 1px solid #222;  /* 테두리 선 */
+
+}
+/* 4. 아이디 선택자 : 문서 내에서 한번만 사용*/
+body{
+    background-color: pink;
+    
+}
+
+#wrap{
+    background-color:white;
+    border:1px botted#555;
+    padding: 10px 20px;
+    margin: 50px 100px
+}
+
+/* 5. 그룹 선택자 */
+p, h2, .border {
+    border-width: 3px;   /* 선-두께 */
+    border-style:dashed;  /* 선-종류 */
+  margin: 15px; /* 여백 크기 */
+  
+}
